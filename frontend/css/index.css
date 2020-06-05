@@ -1,0 +1,175 @@
+body{
+    background-color: gold;
+    text-align: center;
+}
+
+main, footer{
+    text-align: center;
+
+}
+
+.header{
+    padding-top: 120px;
+    height: 100vh;
+    color: black;
+}
+
+.community, .contacts {
+    height: 100vh;
+    position: center;
+}
+
+p{
+    font-family: "Century Gothic", serif;
+    font-weight: regular;
+    font-size: large;
+    color: black;
+}
+
+h1 {
+    font-family: "Century Gothic", serif;
+    font-weight: bold;
+}
+
+h2, h3{
+    font-family: "Century Gothic", serif;
+    color: black;
+    padding: 12px 12px;
+    margin: 24px 0;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: "Century Gothic", serif;
+    color: black;
+}
+
+h5 {
+    font-family: "Century Gothic", serif;
+    color: black;
+    padding: 12px 0;
+}
+
+.networks img{
+    height: 40px;
+    margin: 16px;
+    transition-duration: 0.4s;
+}
+
+.networks img:hover{
+    filter: opacity(50%);
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline !important;
+}
+
+.nav-link {
+    text-align: center !important;
+    font-family: "Century Gothic", serif;
+}
+
+.minititle {
+    margin-bottom: 120px;
+}
+
+.minititle img {
+    height: 6vh;
+    width: auto;
+    filter: invert(100%);
+    transition: all 0.3s ease 0s;
+    position: relative;
+    left: 45%;
+    top: -58px;
+}
+
+.minititle img:hover {
+    filter: invert(90%);
+    height: 44px;;
+}
+
+.communitydata, .contactsdata {
+    margin-top: 200px;
+    position: center;
+}
+
+
+.info-image img{
+    height: 20vh;
+    margin: 54px 0;
+    transition: all 0.3s ease 0s;
+}
+
+.info-image img:hover {
+    height: 25vh;
+}
+
+.info-text h4{
+    height: 30vh;
+    margin: 48px 80px;
+}
+
+.info-title h3{
+    background: none;
+    color: black;
+}
+
+button {
+    border-radius: 4px !important;
+}
+
+.card {
+    border-radius: 8px;
+    margin: 16px 0px;
+
+}
+
+.anncard {
+    border: solid 1px;
+    border-radius: 8px;
+    margin: 16px 0px;
+    height: 40vh;
+    border-radius: 8px;
+    transition: all 0.3s ease 0s;
+}
+
+.anncard:hover {
+    border: solid 4px;
+    background-color: orange;
+    height: 50vh;
+}
+
+input {
+    border-radius: 4px !important;
+}
+
+.anncard-title {
+    font-family: "Century Gothic", serif;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    margin: 8px 8px;
+}
+
+.anncard-text {
+    margin: 8px 8px;
+}
+
+.anncard-body button {
+    margin: 8px 8px;
+    position: bottom;
+}
+
+.nav-item {
+    margin: 0 8px;
+}
+
+.navbar-text {
+    margin: 0 12px;
+}
+
