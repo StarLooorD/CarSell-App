@@ -55,3 +55,11 @@ export default function (state = initialState, action) {
       return state;
   }
 }
+
+export const multiply = (x, y) => {
+    return x * y;
+};
+
+export const divide = (x, y) => {
+    return x / y;
+};
